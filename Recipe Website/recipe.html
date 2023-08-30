@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(to bottom, #000, #333);
+            color: #fff;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+
+        .block {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 30px;
+            position: relative;
+            background-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+            display: flex;
+            flex-direction: column;
+        }
+
+       /* .block:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }*/
+
+        .sub-division {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #fff;
+            padding-bottom: 15px;
+        }
+
+        .sub-division:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-top: auto;
+        }
+
+        .sub-division h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+       .mhead{
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+        .block img {
+            height: 300px;
+            width: 500px;
+            
+
+        }
+
+        
+         /* Navigation Bar */
+         .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #444;
+        }
+
+        .navbar-logo {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .navbar-logo img {
+            max-height: 30px;
+            margin-right: 10px;
+        }
+
+        .navbar-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+            border-radius: 50%;
+            padding: 8px;
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#" class="navbar-logo">
+            <img src="logo.png" alt="logo.png">
+            Unique Bites Recipe 
+        </a>
+        <div class="navbar-links">
+            <a href="home.html">Home</a>
+            <a href="recipe.html">Recipe</a>
+            <a href="about.html">About Us</a>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="block">
+            <div class="sub-division">
+                <h1 class="mhead">Marinade for Chicken:</h1><hr>
+                <h3>Ingredients</h3>
+                <p>Marinade for Chicken:</p>
+                <ul>
+                    <li>3 tablespoons plain yogurt</li>
+                    <li>1 tablespoons ginger-garlic paste homemade paste </li>
+                    <li>2 tablespoons chopped cilantro & mint</li>
+                    <li>½ to ¾ teaspoon salt (adjust to tase)</li>
+                    <li>1½ teaspoons coriander powder</li>
+                    <li>½ teaspoon cumin powder</li>
+                    <li>¼ teaspoon turmeric</li>
+                    <li>1½ teaspoons Kashmiri Red Chili Powder</li>
+                    <li>1¼ teaspoon salt</li>
+                    <li>1 tablespoon lime juice</li>
+                    <li>1-1¼ pounds boneless skinless chicken thighs</li>
+                </ul>
+                <p>Fried Onions:</p>
+                <ul>
+                    <li>2 medium onions</li>
+                    <li>2 tablespoons ghee for sautéing</li>
+                    <li>¼ teaspoon salt</li>
+                </ul>
+                <p>Biryani:</p>
+                <ul>
+                    <li>2 tablespoons ghee</li>
+                    <li>2 bay leaves</li>
+                    <li>10 whole cashews (optional)</li>
+                    <li>1 teaspoon saffron soaked in 1 tablespoon warm milk</li>
+                    <li>½ cup chopped cilantro & mint</li>
+                    <li>1¼ cups long grain basmati rice rinsed & soaked for 15 minutes</li>
+                    <li>¾ teaspoon salt</li>
+                    <li>½ teaspoon garam masala</li>
+                    <li>1¼ cup water + ½ cup for deglazing in between</li>
+                </ul>
+            </div>
+            <img src="chicken biryani.jpeg" alt="recipe image">
+            <div class="sub-division">
+                <h3>Steps to Prepare</h3>
+                <p>Instant Pot Chicken Biryani (with Uncooked Rice):</p>
+                <ol>
+                    <li>In a large mixing bowl combine the ingredients listed under 'marinade'. Toss chicken in it and refrigerate anywhere from 30 minutes to overnight.</li>
+                    <li>Rinse long grain basmati rice 2-3 times until the water runs clear. Soak it in enough water for about 15 minutes while you prepare other ingredients.</li>
+                    <li>To make fried onions from scratch, heat the Instant pot on Saute, adjusted to high setting. Add ghee and sliced onions along with a pinch of salt. Continue to saute, stirring occasionally, until the onions get golden brown in color. It can take 12-15 minutes for that. Add ¼ cup water and scrape off any brown bits stuck to the bottom. If needed, clean the pot before the next step.</li>
+                    <li>Add 2 tablespoons ghee or oil along with marinated chicken. Spread it in a single layer, cover with a glass lid and cook for 3 minutes. Open the lid, flip the chicken and turn off Saute mode. Add few tablespoons water and scrape off any bits stuck to the bottom of the pot.</li>
+                    <li>To layer biryani in the Instant pot, layer and spread the strained rice over the partially cooked chicken. Add 1 cup water over rice (follow a 1:1 ratio). Make sure all the rice is submerged. Sprinkle salt and garam masala and gently stir the top only.</li>
+                    <li>Top with half the fried onions and herbs, along with soaked saffron. </li>
+                    <li>Close the lid with knob at sealing position. Set Pressure Cook or Manual for 6 minutes at high pressure. After cooking time is up, wait 5 minutes then manually release the pressure following the quick release instructions of your cooker.</li>
+                    <li>Open the lid and using oven mitts remove the inner pot from the Instant Pot base, to stop the cooking process. Using a fork, gently fluff the top 1-inch layer of rice. Top with remaining fried onions and chopped herbs, Let it rest for 5 minutes, uncovered. This allows for any excess moisture to evaporate.</li>
+                </ol>
+                <p>Chicken Biryani with Partially Cooked Rice:</p>
+                <ol>
+                    <li>Follow steps 1-4 from above for marinating chicken, soaking rice, caramelizing onions and sautéing chicken. While the onions are sautéing, make rice following the instructions below.</li>
+                    <li>To partially cook rice on the stove, boil 4 cups of water in a sauce pan. Add drained rice and 1 teaspoon salt. Bring back to a boil and cook rice on high-heat for 5 minutes, then strain and keep aside. Microwave: Add drained rice to a microwave safe bowl, along with with 1½ cup fresh water and 1 teaspoon salt. Microwave for 5 minutes, or until the rice is 50% done, and then strain and keep aside. </li>
+                    <li>Layer the biryani as per steps 5 & 6 and pour ½ cup over the rice. Pressure cook and serve as per step 7 & 8.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="sub-division">
+                <h1 class="mhead">Chicken:</h1><hr>
+                <h3>Ingredients</h3>
+                <ul>
+                    <li>1½ pound chicken drumsticks</li>
+                </ul>
+                <p>Ingredients for Marinade:</p>
+                <ul>
+                    <li>¼ cup plain greek yogurt</li>
+                    <li>2 teaspoon minced ginger</li>
+                    <li>2 teaspoon minced garlic</li>
+                    <li>2 tablespoon avocado oil</li>
+                    <li>1 tablespoon lime juice</li>
+                    <li>1½ teaspoon salt</li>
+                    <li>1 teaspoon turmeric powder</li>
+                    <li>2 teaspoon garam masala</li>
+                    <li>1 tablespoon coriander powder</li>
+                    <li>1 teaspoon cumin powder</li>
+                    <li>1 teaspoon Kashmiri red chili powder</li>
+                    <li>1 teaspoon paprika</li>
+                    <li>2 teaspoon kasoori methi</li>
+                </ul>
+                <p>Garnish:</p>
+                <ul>
+                    <li>1 teaspoon fresh lime juice</li>
+                    <li>½ teaspoon chaat masala</li>
+                </ul>
+            </div>
+            <img src="chicken tandoori.jpeg" alt="Recipe Image">
+            <div class="sub-division">
+                <h3>Steps to Prepare</h3>
+                <p>Marinate Chicken:</p>
+                <ol>
+                    <li>In a large mixing bowl or gallon-size ziplock bag, combine all ingredients listed for the marinade.</li>
+                    <li>Using a sharp knife, make ½-inch deep gashes (cuts) in the fleshy part of the chicken so it can absorb the marinade. Add the chicken to the marinade and toss well to coat all over. Refrigerate the chicken anywhere from 30 minutes to overnight.</li>
+                </ol>
+                <p>Cook Tandoori Chicken in Oven:</p>
+                <ol>
+                    <li><b>Chicken Legs:</b>Preheat oven to 350°F. Line a baking tray with foil or parchment paper. Place marinated chicken on the tray. Bake for 20 minutes, then turn the chicken, brush with oil and bake for another 15-20 minutes on the other side, until chicken is cooked through and registers a thermometer reading of >165°F.</li>
+                    <li><b>Chicken Thighs:</b>Place the baking sheet on the top rack keeping a 2.5-3 inch clearance. Turn on <b>broil mode</b> and cook for 8 minutes, flip and cook for another 6 minutes.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="sub-division">
+                <h1 class="mhead">Donuts</h1><hr>
+                <h3>Ingredients</h3>
+                <p>For Donuts:</p>
+                <ul>
+                    <li>1 cup flour</li>
+                    <li>2 teaspoon cocoa powder</li>
+                    <li>½ teaspoon baking soda</li>
+                    <li>⅛ teaspoon salt</li>
+                    <li>½ cup sugar</li>
+                    <li>3 tablespoon butter</li>
+                    <li>1 large egg</li>
+                    <li>½ teaspoon vanilla extract</li>
+                    <li>⅓ cup milk</li>
+                    <li>½ teaspoon white vinegar</li>
+                    <li>1 tablespoon red food color</li>
+                </ul>
+                <p>Cream Cheese Frosting:</p>
+                <ul>
+                    <li>2 oz. cream cheese</li>
+                    <li>½ cup powdered sugar</li>
+                    <li>½ teaspoon vanilla extract</li>
+                    <li>1 tablespoon milk</li>
+                </ul>
+            </div>
+            <img src="red velvet donut.jpeg" alt="Recipe Image">
+            <div class="sub-division">
+                <h3>Steps to Prepare</h3>
+                <p>Step-by-step instructions:</p>
+                <ol>
+                    <li>Preheat oven to 350°F. Lightly grease a donut pan with cooking spray. Using a kitchen towel, smear it in the mold and wipe off the excess. Mix milk and white vinegar and let it sit while you gather the ingredients (skip this step if using buttermilk).</li>
+                    <li>In a large mixing bowl add egg, buttermilk, vanilla, melted butter, food coloring and vinegar. Using a electric hand mixer or a large whisk, beat until well combined.</li>
+                    <li>Add dry ingredients, including flour, cocoa powder, baking soda, sugar and salt in a sieve and sift into the wet ingredients. Mix well to combine.</li>
+                    <li>Add red food coloring and mix the batter till the color is fully incorporated.</li>
+                    <li>Pour batter into a gallon size ziplock bag (or large piping bag), pushing it to a corner. Squeeze the air out of the bag and twist till you get a firm grip on the bag. Cut about ¾-inch at the tip.</li>
+                    <li>Pipe batter into the donut mold until about ½ full. Pipe any excess batter in an oven-safe ramekin. We will bake this and use for garnishing the donuts.</li>
+                    <li>Bake at 350°F for 9-10 minutes, or until an inserted toothpick comes out clean. Wait 5 minutes, then using a pairing knife, carefully transfer the donuts on a wire rack for cooling, for about 30 minutes.</li>
+                    <li>White the donuts cool, prepare the frosting by whisking together cream cheese, powdered sugar, vanilla and milk. Adjust the quantity of milk based on the consistency. We want this frosting to be like pancake batter.</li>
+                    <li>When the donuts have cooled, dip them in the frosting half way through. Swirl the donut so it gets coated with the frosting. Place the donut back on the wire rack for the icing to set.</li>
+                    <li>Crumble the excess batter that we baked in a ramekin. Sprinkle the crumbs on top of the icing. This step is optional, but makes for a pretty presentation. Enjoy the donuts!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="#" class="social-icon">
+            <i class="far fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Don't forget to include Font Awesome for the social media icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+

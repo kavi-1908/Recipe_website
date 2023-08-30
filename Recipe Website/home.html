@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+           /* background: linear-gradient(to bottom, #000, #d24a4a);*/
+           background-image:url(./backabout);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            
+        }
+
+        /* nav styles... */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #b1710a;
+        }
+
+        .navbar-logo {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .navbar-logo img {
+            max-height: 30px;
+            margin-right: 10px;
+        }
+
+        .navbar-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar-links a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+
+        /* Welcome Section */
+        .welcome-section {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        .welcome-heading {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .welcome-text {
+            font-size: 16px;
+        }
+
+        /* Image Grid */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .image-container {
+            width: 200px;
+            height: 150px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Social media icons styles */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .social-icon {
+            color: #fff;
+            font-size: 24px;
+            text-decoration: none;
+            border-radius: 50%;
+            padding: 8px;
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" class="navbar-logo">
+            <img src="logo.png" alt="Logo">
+            Unique Bites
+        </a>
+        <div class="navbar-links">
+            <a href="home.html">Home</a>
+            <a href="recipe.html">Recipe</a>
+            <a href="about.html">About Us</a>
+        </div>
+    </div>
+
+    <div class="welcome-section">
+        <div class="welcome-heading">Welcome to Our Recipe Page</div>
+        <div class="welcome-text">Where culinary delights take center stage! At our website, we pride ourselves oncrafting exceptional recipes that blend flavors from around the world, infused with a touch of creativity and love. Whether you're a seasoned chef or an aspiring home cook, our collection of mouthwatering dishes promises to tantalize your taste buds and bring joy to your kitchen adventures. Get ready to embark on a delectable journey as we share our passion for cooking, where every recipe is crafted with care and designed to make your dining experience truly unforgettable. Let the cooking magic begin! </div>
+    </div>
+
+    <div class="image-grid">
+        <div class="image-container">
+            <img src="chicken biryani.jpeg" alt="Image 1">
+        </div>
+        <div class="image-container">
+            <img src="spaghetti bolognese.jpeg" alt="Image 2">
+        </div>
+        <div class="image-container">
+            <img src="chicken tandoori.jpeg" alt="Image 3">
+        </div>
+        <div class="image-container">
+            <img src="samosa.jpeg" alt="Image 4">
+        </div>
+        <div class="image-container">
+            <img src="red velvet donut.jpeg" alt="Image 5">
+        </div>
+        <div class="image-container">
+            <img src="pumpkin bread pudding.jpeg" alt="Image 6">
+        </div>
+    </div>
+
+    <div class="social-icons">
+        <a href="#" class="social-icon">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="social-icon">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="social-icon">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="#" class="social-icon">
+            <i class="far fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Don't forget to include Font Awesome for the social media icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
